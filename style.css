@@ -1,0 +1,95 @@
+body{
+    background-color:#b3ff99 ;
+    color: #1a1a1a;
+}
+
+main{
+    background-color:#ccffcc;
+    color: #1a1a1a;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    width: 60vw;   
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a:link {
+    color: #1a1a1a;
+}
+
+a:hover{
+    background-color: #b3ff99;
+    color: #1a1a1a;
+}
+
+a:visited{
+    background-color: #b3ff99;
+    color: #1a1a1a;
+}
+
+a:focus{
+    background-color: #b3ff99;
+    color: #1a1a1a;
+}
+
+a:active{
+
+    color: #008000;
+}
+
+ul.a {
+    list-style-type: square;
+    text-align: center;
+  }
+
+h1{
+    color: #14141f; 
+    border-bottom: 1px solid green;
+    width: 50%;
+    font-family: 'Turret Road', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px #008000;
+    
+}
+
+h2{
+    font-family: 'Turret Road', cursive;
+    text-shadow: 2px 2px #008000;
+}
+
+div.about{
+    text-align: center;
+   
+}
+p#paraAbout{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.links{
+    
+       margin: 20px;
+       width: 300px;
+       border: 15px solid green;
+       padding: 40px;
+       margin-left: 28%;
+       margin-top: 20px;
+       margin-right: 28%;
+        
+}
+
+div#git{
+    width: 300px;
+    border: 15px solid green;
+    padding: 40px;
+    margin-left: 28%;
+    margin-top: 20px;
+    margin-right: 28%;
+
+}
