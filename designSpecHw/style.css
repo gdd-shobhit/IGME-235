@@ -1,0 +1,134 @@
+body{
+    background:#d2d4c8; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e3532;
+    color: #e0e2db;
+    text-align: center;
+    
+  }
+img{
+    width:100%;
+}
+p.copyright{
+    text-align:left;
+    margin-left:30px;
+}
+p.other{
+    text-align:right;
+    margin-right:30px;
+    margin-top: -35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 400px;
+    grid-gap: 10px;
+    background-color: #e0e2db;
+    padding: 20px;
+  }
+  .grid-container > div {
+    background-color: #d2d4c8;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  div > img{
+    width: 100%;
+    height: 50%;
+  }
+  h3{
+    color:#13295c;
+  }
+
+  div.pPadding{
+    padding: 10px;
+  }
+
+  p{
+    color:#e0e2db;
+  }
+
+  .zoom {
+    padding: 0px;
+    /* background-color: green; */
+    transition: transform .2s; /* Animation */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.8);
+  }
+
+  .grid-container-red {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 210px;
+    grid-gap: 10px;
+    background-color: #e0e2db;
+    padding: 10px;
+    padding-bottom: 100px;
+    /* padding-top: 50px; */
+  }
+
+  .grid-container-red > div {
+    background-color: #bc0c06;
+    text-align: left;
+    /* padding: 20px 0; */
+    font-size: 14px;
+    
+  }
+
+  div.red{
+    color:#e0e2db;
+  }
+
+  h3.red{
+    color:#e0e2db;
+    
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e3532;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #e0e2db;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #bc0c06;
+  }
+
+  p.copyright{
+    color: #e0e2db
+  }
+
+  p.other{
+    color: #e0e2db
+  }

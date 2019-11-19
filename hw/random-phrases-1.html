@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Michael Scott Phrases</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img src="scott.jpg" alt="scoot">
+            <h1>h1</h1>
+            <h2>h2</h2>
+  
+            <footer>Copyright &copy; <b>2019</b></footer>
+        </div>
+            <script>
+                "use strict"; 
+                let phrases = ["Guess what, I have flaws. What are they? Oh I don't know. I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car. So sue me.", 
+                "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.", 
+                "Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked, but it's not like this compulsive need to be liked, like my need to be praised.",
+                "I'm not superstitious but I am a little stitious.",
+                "I guess I’ve been working so hard, I forgot what it’s like to be hardly working."];
+                let h1=document.querySelector("h1");
+                let h2=document.querySelector("h2");
+                h1.innerHTML = "What did Michael Scott Say?";
+                h2.innerHTML = ""+phrases[Math.floor((Math.random()*10)/2)];
+
+                document.body.style.fontFamily = "sans-serif";
+                document.body.style.color = "white";
+        
+                h1.style.fontWeight = "bold";
+                h1.style.fontSize = "2em";
+                h1.style.textShadow = "3px 2px #101010";
+                h2.style.textShadow="3px 2px #000000";
+                document.querySelector("footer").innerHTML = "<b>Shobhit Dhamania</b> 2019 &copy";
+             
+                
+                </script>
+    </main>
+</body>
+</html>

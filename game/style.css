@@ -1,0 +1,19 @@
+h1 {
+    color:red;
+    font-family: sans-serif;
+    text-align: center
+}
+
+blockquote {
+    background-color: lightgray;
+    padding: 1rem;
+    color: black;
+}
+
+div.details{
+    text-align: center
+}
+
+body {background-color: black;
+    color: whitesmoke;
+}

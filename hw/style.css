@@ -1,0 +1,76 @@
+main{
+    margin: 20px;
+    padding: 10px; 
+}
+
+h1{
+   position: absolute;
+   top:8px;
+   left: 10%;
+   right: 10%;
+   font-family: 'Roboto Slab', serif;
+   
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+h2{
+    position: absolute;
+    text-align: center;
+    bottom:100px;
+    left: 10%;
+    right: 10%;  
+    font-family: 'Roboto Slab', serif;
+}
+
+img{
+    align-self: center;
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left:10px;
+     
+}
+
+body{
+    background: #111111;
+    /* background: url("scott.jpg");
+    background-repeat: no-repeat; */
+    align-self: center; 
+    background-size: 100%;
+    font-family: 'Roboto Slab', serif;
+
+}
+button {
+    background-color: #111111; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    bottom: 60px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+       
+  }
+
+button:hover{
+    background-color:white; /* Green */
+    color: #111111;
+  
+  }
+
+  button:active{
+      background-color: red;
+  }
